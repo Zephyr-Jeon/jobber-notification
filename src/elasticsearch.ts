@@ -14,7 +14,7 @@ export async function checkConnection(): Promise<void> {
   let isConnected = false;
   let count = 0;
 
-  while (!isConnected || count > 2) {
+  while (!isConnected || count > 1) {
     count++;
 
     try {
